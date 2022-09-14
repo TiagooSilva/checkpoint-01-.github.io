@@ -1,0 +1,87 @@
+@media (min-width: 768px) AND (max-width: 1023px) {
+
+    /* Header */
+
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+
+        height: 150px;
+    }
+
+    .logo > img {
+        height: 80px;
+        margin-top: 0;
+        margin-left: 20px;
+    }
+
+    .nav {
+        flex-direction: row;
+        height: 100px;
+        margin-top: 0px;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .nav > a {
+        min-width: 135px;
+    }
+    
+    /*Main*/
+    
+    .banner {
+        display: block;
+        height: 460px;
+    }
+
+    .banner > img {
+
+        height: 450px;
+    }
+    
+    .curiosidades {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .curiosidade-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    
+    .card {
+        width: 320px;
+        height: 550px;
+        gap: 15px;
+    }
+
+    .video {
+        height: 700px;
+    }
+
+    .video-frame {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    .video-frame > iframe {
+        width: 100%;
+        height: 550px;
+        border-radius: 30px;
+    }
+
+    /* Footer */
+
+    .contatos {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 250px;
+    }
+
+}
